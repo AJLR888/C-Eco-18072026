@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360">
+  <rect width="560" height="360" rx="24" fill="#ffffff" stroke="#dde2d9" stroke-width="2" />
+  <path d="M120 60h320v240H120z" fill="#f8faf7" stroke="#c8d0c6" stroke-width="2" />
+  <circle cx="185" cy="140" r="18" fill="#74b27e" />
+  <circle cx="260" cy="140" r="18" fill="#74b27e" />
+  <circle cx="335" cy="140" r="18" fill="#74b27e" />
+  <path d="M203 140h48m48 0h48" stroke="#314c3e" stroke-width="6" stroke-linecap="round" />
+  <text x="50%" y="310" text-anchor="middle" fill="#5f6b65" font-family="Arial,sans-serif" font-size="18">Device lifecycle diagram placeholder</text>
+</svg>

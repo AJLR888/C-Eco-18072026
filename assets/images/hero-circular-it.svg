@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" rx="24" fill="#eef1ec" />
+  <circle cx="260" cy="210" r="120" fill="#74b27e" opacity="0.25" />
+  <rect x="360" y="120" width="160" height="96" rx="16" fill="#1c3f2d" />
+  <rect x="120" y="220" width="140" height="90" rx="16" fill="#314c3e" />
+  <path d="M255 130l76 15 20 20" fill="none" stroke="#1c3f2d" stroke-width="12" stroke-linecap="round" />
+  <text x="50%" y="88%" text-anchor="middle" fill="#314c3e" font-family="Arial,sans-serif" font-size="24">Placeholder illustration</text>
+</svg>
