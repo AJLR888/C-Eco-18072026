@@ -22,12 +22,17 @@
   --color-on-primary: var(--white);
   --color-on-accent: var(--plum-950);
   --color-on-footer: var(--white);
+  --color-footer-muted: #b8a9d4;
+  --color-surface-translucent: rgba(255, 255, 255, 0.96);
+  --color-border-subtle: rgba(35, 1, 63, 0.08);
+  --color-border-on-footer: rgba(255, 255, 255, 0.12);
 
   --font-heading: "Inter", "Segoe UI", Arial, sans-serif;
   --font-body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
   --max-width: 1100px;
   --section-gap: 4.5rem;
   --radius: 18px;
+  --radius-pill: 999px;
   --shadow: 0 18px 40px rgba(87, 3, 158, 0.09);
 }
 
@@ -96,9 +101,9 @@ textarea {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.96);
+  background: var(--color-surface-translucent);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(35, 1, 63, 0.08);
+  border-bottom: 1px solid var(--color-border-subtle);
 }
 
 .site-header__inner {
@@ -183,7 +188,7 @@ textarea {
 
 .eyebrow {
   margin: 0;
-  color: var(--color-accent);
+  color: var(--color-primary);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -212,7 +217,7 @@ textarea {
 
 .section-label {
   margin: 0 0 0.75rem;
-  color: var(--color-accent);
+  color: var(--color-primary);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.78rem;
@@ -227,9 +232,12 @@ textarea {
 
 .section-intro,
 .disclaimer,
-.site-footer p,
 .form-note {
   color: var(--color-muted);
+}
+
+.site-footer p {
+  color: var(--color-footer-muted);
 }
 
 .problem-list,
@@ -296,7 +304,7 @@ textarea {
   width: 2.5rem;
   height: 2.5rem;
   margin-bottom: 1rem;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--color-accent);
   color: var(--color-on-accent);
   font-weight: 700;
@@ -320,7 +328,7 @@ textarea {
 
 .audience-list span {
   padding: 1rem 1.25rem;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   border: 1px solid var(--color-border);
   background: var(--color-surface);
   color: var(--color-text);
@@ -432,7 +440,7 @@ textarea {
 .site-footer {
   padding: 1.5rem 0 2rem;
   background: var(--color-footer);
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid var(--color-border-on-footer);
 }
 
 .site-footer__inner {
@@ -447,7 +455,7 @@ textarea {
   align-items: center;
   justify-content: center;
   border: none;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   padding: 0.95rem 1.6rem;
   cursor: pointer;
   font-weight: 700;
