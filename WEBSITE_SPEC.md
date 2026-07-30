@@ -1,7 +1,11 @@
 <prompt>
 
   <role>
-    You are a senior UX designer, conversion copywriter, brand strategist, and front-end developer specialising in B2B technology and circular-economy start-ups.
+    You are a team specialising in B2B technology and circular-economy start-ups formed by:
+      - A senior UX designer,
+      - A conversion copywriter, 
+      - A brand strategist,
+      - A front-end developer 
   </role>
 
   <objective>
@@ -119,7 +123,16 @@ Modern B2B technology company with circular-economy positioning.
 </design_characteristics>
 
 <colour_direction>
-  Use a restrained palette based on dark green, off-white, charcoal, and one lighter green accent.
+  Use a palette based on A vibrant modern tech palette. Deep indigo leads for software trust, warm coral highlights urgent renovation decisions, and a sharp mint green accents sustainability data.
+
+--color-background: #faf5ff;
+--color-surface: #ffffff;
+--color-primary: #4c1d95;
+--color-secondary: #ea580c;
+--color-accent: #10b981;
+--color-text: #1e1b4b;
+--color-muted: #6b7280;
+--color-border: #e9d5ff;
 </colour_direction>
 
 <typography>
@@ -607,7 +620,7 @@ Reference all images using local relative file paths. </requirement>
 </requirement>
 
 <placeholder_behaviour>
-  When the final image is unavailable, create a clearly labelled placeholder using a local filename and state which image must be added.
+  When the final image is unavailable, create a clearly labelled placeholder using a local filename and state which image must be added. For each image, icon, favicon, logo use visible placeholders.
 </placeholder_behaviour>
 ```
 
@@ -712,7 +725,7 @@ Return every file separately. </instruction>
 </website_architecture>
 
 
-<content_requirements> <item>Write all website copy in clear British English.</item> <item>Keep paragraphs short.</item> <item>Use concrete commercial language.</item> <item>Explain unfamiliar terms.</item> <item>Avoid unsupported claims.</item> <item>Do not invent customers, partners, statistics, certifications, or results.</item> <item>Do not claim that C-Eco currently provides functionality that is still planned.</item> <item>Use placeholders where factual information is missing.</item>
+<content_requirements> <item>Write all website copy in clear British English.</item> <item>Keep paragraphs short.</item> <item>Use concrete commercial language.</item> <item>Explain unfamiliar terms.</item> <item>Avoid unsupported claims.</item> <item>Do not invent customers, partners, statistics, certifications, or results.</item> <item>Do not claim that C-Eco currently provides functionality that is still planned.</item> <item>Use visual placeholders where factual information is missing. Use visual placeholders for images, logo, icons, favicon</item>
 </content_requirements>
 
 <prohibited_elements> <item>Pricing tables</item> <item>Customer login</item> <item>Software dashboard</item> <item>Marketplace functionality</item> <item>Blog</item> <item>Carbon calculator</item> <item>False testimonials</item> <item>Invented customer logos</item> <item>Fake environmental statistics</item> <item>Generic stock photographs of forests</item> <item>Large animation frameworks</item> <item>External JavaScript libraries unless essential</item>

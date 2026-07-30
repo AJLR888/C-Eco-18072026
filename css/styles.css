@@ -1,18 +1,34 @@
 :root {
-  --color-background: #f5f6f3;
-  --color-surface: #ffffff;
-  --color-primary: #1c3f2d;
-  --color-secondary: #314c3e;
-  --color-accent: #74b27e;
-  --color-text: #1a2420;
-  --color-muted: #5f6b65;
-  --color-border: #dde2d9;
+  /* primitives */
+  --purple-700: #57039e;
+  --purple-400: #a87bd5;
+  --green-400: #41f096;
+  --ink-950: #23013f;
+  --plum-950: #150826;
+  --lilac-100: #f3e9ff;
+  --lilac-50: #f7f2fa;
+  --white: #ffffff;
+
+  /* semantic */
+  --color-background: var(--lilac-100);
+  --color-surface: var(--white);
+  --color-surface-alt: var(--lilac-50);
+  --color-footer: var(--plum-950);
+  --color-primary: var(--purple-700);
+  --color-accent: var(--green-400);
+  --color-text: var(--ink-950);
+  --color-muted: #635689;
+  --color-border: rgba(35, 1, 63, 0.12);
+  --color-on-primary: var(--white);
+  --color-on-accent: var(--plum-950);
+  --color-on-footer: var(--white);
+
   --font-heading: "Inter", "Segoe UI", Arial, sans-serif;
   --font-body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
   --max-width: 1100px;
   --section-gap: 4.5rem;
   --radius: 18px;
-  --shadow: 0 18px 40px rgba(28, 63, 45, 0.08);
+  --shadow: 0 18px 40px rgba(87, 3, 158, 0.09);
 }
 
 * {
@@ -69,20 +85,20 @@ textarea {
 }
 
 .section--alt {
-  background: #eef1ec;
+  background: var(--color-surface-alt);
 }
 
 .section--light {
-  background: #f8faf7;
+  background: var(--color-background);
 }
 
 .site-header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(245, 246, 243, 0.96);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(28, 63, 45, 0.06);
+  border-bottom: 1px solid rgba(35, 1, 63, 0.08);
 }
 
 .site-header__inner {
@@ -282,7 +298,7 @@ textarea {
   margin-bottom: 1rem;
   border-radius: 999px;
   background: var(--color-accent);
-  color: #fff;
+  color: var(--color-on-accent);
   font-weight: 700;
 }
 
@@ -306,7 +322,7 @@ textarea {
   padding: 1rem 1.25rem;
   border-radius: 999px;
   border: 1px solid var(--color-border);
-  background: #ffffff;
+  background: var(--color-surface);
   color: var(--color-text);
   font-weight: 600;
 }
@@ -377,7 +393,7 @@ textarea {
   padding: 0.95rem 1rem;
   border: 1px solid var(--color-border);
   border-radius: 14px;
-  background: #fff;
+  background: var(--color-surface);
   color: var(--color-text);
 }
 
@@ -415,8 +431,8 @@ textarea {
 
 .site-footer {
   padding: 1.5rem 0 2rem;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
+  background: var(--color-footer);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .site-footer__inner {
@@ -445,7 +461,7 @@ textarea {
 
 .button--primary {
   background: var(--color-primary);
-  color: #ffffff;
+  color: var(--color-on-primary);
 }
 
 .button--secondary {
