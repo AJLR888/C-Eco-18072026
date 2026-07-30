@@ -468,6 +468,11 @@ textarea {
 }
 
 @media (max-width: 780px) {
+  .page-width {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .site-header__inner {
     flex-wrap: wrap;
   }
