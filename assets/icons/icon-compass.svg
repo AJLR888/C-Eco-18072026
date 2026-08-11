@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="12" fill="#E8F7EC"/>
+  <circle cx="24" cy="24" r="15" stroke="#2E8B57" stroke-width="1.8" fill="none"/>
+  <circle cx="24" cy="24" r="10" stroke="#2E8B57" stroke-width="0.9" stroke-dasharray="2 2" fill="none" opacity="0.9"/>
+
+  <!-- Main compass star -->
+  <path d="M24 6 L28 24 L24 42 L20 24 Z" fill="#2E8B57" opacity="0.95"/>
+  <path d="M24 12 L27 24 L24 36 L21 24 Z" fill="#E8F7EC"/>
+
+  <!-- Secondary points -->
+  <path d="M12 24 L24 18 L36 24 L24 30 L12 24 Z" fill="#2E8B57" opacity="0.9"/>
+
+  <!-- Needle highlight -->
+  <path d="M24 9 L29 24 L24 39 L19 24 L24 9 Z" stroke="#2E8B57" stroke-width="0.9" fill="none"/>
+
+  <!-- Cardinal ticks -->
+  <line x1="24" y1="4" x2="24" y2="10" stroke="#2E8B57" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="24" y1="38" x2="24" y2="44" stroke="#2E8B57" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="4" y1="24" x2="10" y2="24" stroke="#2E8B57" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="38" y1="24" x2="44" y2="24" stroke="#2E8B57" stroke-width="1.6" stroke-linecap="round"/>
+
+</svg>
