@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Background Shape -->
+  <rect x="2" y="2" width="44" height="44" rx="11" fill="#E8F7EC" />
+
+  <!-- Ground Line -->
+  <path
+    d="M14 38H34"
+    stroke="#16603D"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <!-- Tree Trunk -->
+  <path
+    d="M22 26V37.5H26V26Z"
+    fill="#16603D"
+    stroke="#16603D"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+
+  <!-- Foliage Canopy -->
+  <path
+    d="M16 28.5C12.5 28.5 10 25.8 10 22.5C10 19.5 12.2 17 15 16.5C16 12 19.6 9 24 9C28.4 9 32 12 33 16.5C35.8 17 38 19.5 38 22.5C38 25.8 35.5 28.5 32 28.5Z"
+    fill="#41F096"
+    stroke="#16603D"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Operational cog icon">
+  <!-- Background badge -->
+  <rect width="48" height="48" rx="12" fill="#E8F7EC" />
+
+  <!-- Gear group -->
+  <g transform="translate(0,0)" fill="none" stroke="none">
+    <!-- Outer ring -->
+    <circle cx="24" cy="24" r="12" fill="#41F096" stroke="#16603D" stroke-width="1.5" />
+
+    <!-- Center hole -->
+    <circle cx="24" cy="24" r="5" fill="#E8F7EC" />
+
+    <!-- Teeth (8 rectangles rotated around center) -->
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(0 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(45 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(90 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(135 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(180 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(225 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(270 24 24)" />
+    <rect x="22" y="3" width="4" height="6" rx="1" fill="#16603D" transform="rotate(315 24 24)" />
+  </g>
+</svg>
