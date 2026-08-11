@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Backdrop Tile -->
+  <rect 
+    x="2" 
+    y="2" 
+    width="44" 
+    height="44" 
+    rx="10" 
+    fill="#E8F7EC" 
+    stroke="rgba(35, 1, 63, 0.12)" 
+    stroke-width="1"
+  />
+
+  <!-- Gear Body & Teeth -->
+  <path 
+    d="M 38.72 21.14 
+       L 38.72 26.86 
+       L 33.93 27.42 
+       L 31.92 30.89 
+       L 33.84 35.32 
+       L 28.88 38.18 
+       L 26.00 34.31 
+       L 22.00 34.31 
+       L 19.12 38.18 
+       L 14.16 35.32 
+       L 16.08 30.89 
+       L 14.07 27.42 
+       L 9.28 26.86 
+       L 9.28 21.14 
+       L 14.07 20.58 
+       L 16.08 17.11 
+       L 14.16 12.68 
+       L 19.12 9.82 
+       L 22.00 13.69 
+       L 26.00 13.69 
+       L 28.88 9.82 
+       L 33.84 12.68 
+       L 31.92 17.11 
+       L 33.93 20.58 Z" 
+    fill="#41F096" 
+    stroke="#16603D" 
+    stroke-width="2" 
+    stroke-linejoin="round" 
+    stroke-linecap="round"
+  />
+
+  <!-- Center Hole -->
+  <circle 
+    cx="24" 
+    cy="24" 
+    r="4.5" 
+    fill="#E8F7EC" 
+    stroke="#16603D" 
+    stroke-width="2"
+  />
+</svg>

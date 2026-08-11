@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Background container -->
+  <rect width="48" height="48" rx="10" fill="#E8F7EC"/>
+
+  <!-- Cog Body & Teeth -->
+  <g fill="#2E8B57">
+    <!-- 6 evenly spaced rounded teeth -->
+    <rect x="21" y="9" width="6" height="30" rx="2"/>
+    <rect x="21" y="9" width="6" height="30" rx="2" transform="rotate(60 24 24)"/>
+    <rect x="21" y="9" width="6" height="30" rx="2" transform="rotate(120 24 24)"/>
+
+    <!-- Central hub body -->
+    <circle cx="24" cy="24" r="10"/>
+  </g>
+
+  <!-- Center Cutout Hole -->
+  <circle cx="24" cy="24" r="4.5" fill="#E8F7EC"/>
+</svg>

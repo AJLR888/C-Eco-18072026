@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Soft Backdrop -->
+  <rect width="48" height="48" rx="12" fill="#E8F7EC"/>
+
+  <!-- Trunk -->
+  <path d="M22 27H26V35.5C26 36.88 25.1 38 24 38C22.9 38 22 36.88 22 35.5V27Z" fill="#2E8B57"/>
+
+  <!-- Foliage Canopy -->
+  <path d="M24 10C27.94 10 31.2 12.87 31.86 16.74C35.32 17.48 38 20.57 38 24.31C38 28.56 34.56 32 30.31 32H17.69C13.44 32 10 28.56 10 24.31C10 20.57 12.68 17.48 16.14 16.74C16.8 12.87 20.06 10 24 10Z" fill="#2E8B57"/>
+
+  <!-- Inner Branch Accent -->
+  <path d="M24 30V20M24 24.5L27.5 21M24 26.5L20.5 23" stroke="#E8F7EC" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
