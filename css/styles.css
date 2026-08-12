@@ -225,18 +225,23 @@ textarea {
 
 .nav-toggle {
   display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: none;
   background: transparent;
   padding: 0.5rem;
   cursor: pointer;
+  gap: 0.35rem;
 }
 
 .nav-toggle__bar {
   display: block;
   width: 1.5rem;
-  height: 2px;
-  margin: 0.25rem 0;
+  height: 2.5px;
   background: var(--color-text);
+  border-radius: 1px;
+  transition: all 0.3s ease;
 }
 
 .hero {
