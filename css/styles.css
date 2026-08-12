@@ -121,8 +121,8 @@ textarea {
 }
 
 .brand__logo {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
 }
 
 .brand__name {
@@ -468,8 +468,8 @@ textarea {
 }
 
 .button--primary {
-  background: var(--color-primary);
-  color: var(--color-on-primary);
+  background: #41f096;
+  color: var(--purple-700);
 }
 
 .button--secondary {
