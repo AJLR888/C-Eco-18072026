@@ -111,7 +111,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 0.51rem 0;
 }
 
 .brand {
@@ -121,8 +121,8 @@ textarea {
 }
 
 .brand__logo {
-  width: 48px;
-  height: 48px;
+  width: 62.4px;
+  height: 62.4px;
 }
 
 .brand__name {
@@ -149,6 +149,11 @@ textarea {
 
 .header__cta {
   white-space: nowrap;
+}
+
+.header__cta--small {
+  font-size: 0.63rem;
+  padding: 0.6rem 1.01rem;
 }
 
 .nav-toggle {
@@ -456,9 +461,10 @@ textarea {
   justify-content: center;
   border: none;
   border-radius: var(--radius-pill);
-  padding: 0.95rem 1.6rem;
+  padding: 0.665rem 1.12rem;
   cursor: pointer;
   font-weight: 700;
+  font-size: 0.7rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -470,6 +476,11 @@ textarea {
 .button--primary {
   background: #41f096;
   color: var(--purple-700);
+}
+
+.hero__cta {
+  font-size: 0.63rem;
+  padding: 0.6rem 1.01rem;
 }
 
 .button--secondary {
