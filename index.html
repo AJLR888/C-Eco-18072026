@@ -73,7 +73,8 @@
             <img
               src="assets/images/financial.jpeg"
               alt="Illustration of financial ledger and device value"
-              class="hero__image"
+              class="hero__image lightbox-trigger"
+              tabindex="0"
             />
           </div>
         </div>
@@ -284,6 +285,8 @@
             <img
               src="assets/images/carbon-ledger.jpeg"
               alt="Illustration of a carbon ledger and device lifecycle"
+              class="lightbox-trigger"
+              tabindex="0"
             />
             <figcaption>Illustration of device lifecycle stages for workplace IT.</figcaption>
           </figure>
@@ -361,10 +364,18 @@
       <div class="page-width site-footer__inner">
         <p>C-Eco</p>
         <p><a href="mailto:info@c-eco.co.uk">info@c-eco.co.uk</a></p>
-        <p>Privacy notice placeholder</p>
+        <p>Privacy notice</p>
         <p>© <span id="current-year"></span> C-Eco</p>
       </div>
     </footer>
+
+    <div class="lightbox" id="image-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+      <span class="visually-hidden" id="lightbox-title">Expanded image</span>
+      <button class="lightbox__close" type="button" aria-label="Close expanded image">×</button>
+      <div class="lightbox__content">
+        <img id="lightbox-image" src="" alt="" />
+      </div>
+    </div>
 
     <script src="js/main.js"></script>
   </body>

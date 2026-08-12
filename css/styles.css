@@ -57,6 +57,64 @@ img {
   display: block;
 }
 
+.lightbox-trigger {
+  cursor: zoom-in;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(21, 8, 38, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.lightbox--open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox__content {
+  position: relative;
+  max-width: min(90vw, 1000px);
+  max-height: 85vh;
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.lightbox__content img {
+  display: block;
+  max-width: 100%;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  border-radius: 18px;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--white);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
