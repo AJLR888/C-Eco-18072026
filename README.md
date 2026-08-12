@@ -7,7 +7,8 @@
 - `js/main.js` — essential interactions for mobile navigation, form confirmation, and automatic year update.
 - `assets/images/` — local content images and placeholders.
 - `assets/icons/` — icon files used in cards and benefits.
-- `assets/logo/` — logo and favicon files.
+- `assets/favicon/` — browser favicon files and icon variants.
+- `assets/logo/` — logo files.
 
 ## How to open the website locally
 
