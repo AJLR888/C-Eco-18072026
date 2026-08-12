@@ -101,9 +101,15 @@ textarea {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--color-surface-translucent);
+  background: var(--color-background);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--color-border-subtle);
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.site-header--scrolled {
+  background: var(--color-surface);
+  border-bottom-color: var(--color-border-subtle);
 }
 
 .site-header__inner {
@@ -461,10 +467,10 @@ textarea {
   justify-content: center;
   border: none;
   border-radius: var(--radius-pill);
-  padding: 0.665rem 1.12rem;
+  padding: 0.732rem 1.232rem;
   cursor: pointer;
   font-weight: 700;
-  font-size: 0.7rem;
+  font-size: 0.77rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 

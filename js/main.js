@@ -1,8 +1,17 @@
+const header = document.querySelector('.site-header');
 const navToggle = document.querySelector('.nav-toggle');
 const siteNav = document.getElementById('site-navigation');
 const form = document.getElementById('interest-form');
 const formSuccess = document.getElementById('form-success');
 const currentYear = document.getElementById('current-year');
+
+const updateHeaderState = () => {
+  if (!header) return;
+  header.classList.toggle('site-header--scrolled', window.scrollY > 20);
+};
+
+updateHeaderState();
+window.addEventListener('scroll', updateHeaderState, { passive: true });
 
 if (navToggle && siteNav) {
   navToggle.addEventListener('click', () => {
